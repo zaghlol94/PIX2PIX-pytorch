@@ -29,7 +29,7 @@ python generate.py "input image path"  ex: python generate.py "results/test_1.pn
 # Dataset and Train
 ## Dataset
 This is the dataset for pix2pix model which aims to work as a general-purpose solution for image-to-image translation problems.
-The data folder contains two folders: ```train``` and ```val``` every folder contains around 1000 image every image combined the input and the target in the same 1200 x 1200 image, the ```dataset``` script process the images to have input/target images 600 x 600.
+The data folder contains two folders: ```train``` and ```val``` every folder contains around 1000 image every image combined the input and the target in the same 1200 x 1200 image, the ```src/dataset``` script process the images to have input/target images 600 x 600.
 download from [here](https://www.kaggle.com/datasets/vikramtiwari/pix2pix-dataset)
 
 ![](imgs/dataset.jpg)
