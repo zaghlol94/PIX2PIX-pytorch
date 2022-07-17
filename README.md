@@ -24,7 +24,7 @@ cd PIX2PIX-pytorch
 pip install -r requirements.txt
 bash download_assets.sh
 cd src
-python generate.py "input image path"
+python generate.py "input image path"  ex: python generate.py "results/test_1.png"
 ```
 # Dataset and Train
 ## Dataset
